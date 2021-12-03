@@ -3,3 +3,6 @@ contact_links:
   - name: GitHub Community Support
     url: https://github.community/
     about: Please ask and answer questions here.
+  - name: Windows API Question
+    url: https://stackoverflow.com/questions/tagged/winapi
+    about: Please ask and answer questions about Windows API usage on StackOverflow.
