@@ -37,6 +37,6 @@ body:
         Please share any additional context on the issue.
         Are there any unresolved questions?
         What possibilites do you think this feature will open up in the future?
-      Is your feature request related to a problem? Please describe.
+        Is your feature request related to a problem? Please describe.
       placeholder: "*additional context*"
         
