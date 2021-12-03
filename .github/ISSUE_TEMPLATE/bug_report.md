@@ -2,37 +2,76 @@
 name: Bug report
 about: Create a report to help us improve
 title: ''
-labels: 'bug'
+labels: [bug]
 assignees: ''
+body:
+  - type: dropdown
+    id: crate
+    attributes:
+      label: Which crate is this issue about?
+      multiple: true
+      options:
+        - `windows`
+        - `windows-sys`
+  - type: textarea
+    attributes:
+      label: Crate Version
+      description: What is the version of the crate you're using?
+      placeholder: You can find the exact crate version used in your `Cargo.lock` file.
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Code Example
+      description: |
+        Thank you for filing a bug report! 🐛 Please provide a short summary of the
+        bug, along with any information you feel relevant to replicating the bug.
+      placeholder: |
+        ```rust
+        <code>
+        ```
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Expected Behavior
+      description: I expected to see this happen:
+      placeholder: *explanation*
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Actual Behavior
+      description: Instead, this happened:
+      placeholder: *explanation*
+    validations:
+      required: false
 
----
+I expected to see this happen: *explanation*
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+Instead, this happened: *explanation*
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+### Meta
+<!--
+If you're using the stable version of the compiler, you should also check if the
+bug also exists in the beta or nightly versions.
+-->
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+`rustc --version --verbose`:
+```
+<version>
+```
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+<!--
+Include a backtrace in the code block by setting `RUST_BACKTRACE=1` in your
+environment. E.g. `RUST_BACKTRACE=1 cargo build`.
+-->
+<details><summary>Backtrace</summary>
+<p>
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
+```
+<backtrace>
+```
 
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
-
-**Additional context**
-Add any other context about the problem here.
+</p>
+</details>
