@@ -44,6 +44,7 @@ body:
     attributes:
       label: Additional comments
       description: Is there anything else you'd like to share?
+      placeholder: "*additional comments*"
     validations:
       required: false
   - type: markdown
