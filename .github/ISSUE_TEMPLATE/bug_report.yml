@@ -2,7 +2,7 @@ name: Bug report
 title: '[bug]'
 labels: [bug]
 assignees: []
-body:
+body: []
   # - type: dropdown
   #   attributes:
   #     label: Which crate is this issue about?
