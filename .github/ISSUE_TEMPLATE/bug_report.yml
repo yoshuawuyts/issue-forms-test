@@ -54,3 +54,6 @@ body:
       description: Is there anything else you'd like to share?
     validations:
       required: false
+  - type: markdown
+    attributes:
+      value: "Thank you!��" 
