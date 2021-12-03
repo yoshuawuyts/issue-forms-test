@@ -7,11 +7,11 @@ body:
   - type: dropdown
     id: crate
     attributes:
-      label: Which crate is this issue about?
-      multiple: true
-      options:
-        - `windows`
-        - `windows-sys`
+    label: Which crate is this issue about?
+    multiple: true
+    options:
+      - "`windows`"
+      - "`windows-sys`"
   - type: textarea
     attributes:
       label: Crate Version
@@ -22,10 +22,10 @@ body:
   - type: textarea
     attributes:
       label: Code Example
-      description: |
+      description: >
         Thank you for filing a bug report! 🐛 Please provide a short summary of the
         bug, along with any information you feel relevant to replicating the bug.
-      placeholder: |
+      placeholder: >
         ```rust
         <code>
         ```
@@ -34,14 +34,14 @@ body:
   - type: textarea
     attributes:
       label: Expected Behavior
-      description: I expected to see this happen:
-      placeholder: *explanation*
+      description: "I expected to see this happen:"
+      placeholder: "*explanation*"
     validations:
       required: false
   - type: textarea
     attributes:
       label: Actual Behavior
-      description: Instead, this happened:
-      placeholder: *explanation*
+      description: "Instead, this happened:"
+      placeholder: "*explanation*"
     validations:
       required: false
