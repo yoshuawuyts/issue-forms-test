@@ -14,7 +14,7 @@ body:
       options:
         - "windows"
         - "windows-sys"
-        - "other (share in the additional comments)"
+        - "other (please share in the comments)"
   - type: input
     attributes:
       label: Crate Version
@@ -24,7 +24,7 @@ body:
       required: false
   - type: textarea
     attributes:
-      label: Code Example
+      label: Summary
       description: >
         Please provide a short summary of the bug, along with any information
         you feel relevant to replicating the bug.
@@ -51,7 +51,6 @@ body:
   - type: textarea
     attributes:
       label: Additional Comments
-      description: >
-        Do you have any else you'd like to share?
+      description: Is there anything else you'd like to share?
     validations:
       required: false
