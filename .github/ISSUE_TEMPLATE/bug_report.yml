@@ -17,7 +17,7 @@ body:
       placeholder: You can find the exact crate version used in your `Cargo.lock` file.
     validations:
       required: false
-  - type: markdown
+  - type: textarea
     attributes:
       label: Code Example
       description: >
