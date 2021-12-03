@@ -4,13 +4,14 @@ labels: [bug]
 assignees: []
 body:
   - type: dropdown
-    id: crate
     attributes:
-    label: Which crate is this issue about?
-    multiple: true
-    options:
-      - "`windows`"
-      - "`windows-sys`"
+      id: crate
+      attributes:
+      label: Which crate is this issue about?
+      multiple: true
+      options:
+        - "`windows`"
+        - "`windows-sys`"
   - type: textarea
     attributes:
       label: Crate Version
