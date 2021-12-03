@@ -1,5 +1,5 @@
 name: Feature request
-description: Suggest an idea for this project
+description: Suggest an improvement for this project
 title: 'Feature request:'
 labels: ['enhancement']
 assignees: []
@@ -7,7 +7,7 @@ body:
   - type: markdown
     attributes:
       value: >
-        Thank you for submitting a feature request!
+        Thank you for submitting a feature request! 
   - type: textarea
     attributes:
       label: Motivation
@@ -35,8 +35,11 @@ body:
       label: Additional context
       description: >
         Please share any additional context on the issue.
-        Are there any unresolved questions?
-        What possibilites do you think this feature will open up in the future?
-        Is your feature request related to a problem? Please describe.
-      placeholder: "*additional context*"
+      placeholder: |
+        - Is there prior art for this feature?
+        - Are there any unresolved questions?
+        - What possibilites do you think this feature will open up in the future?
+  - type: markdown
+    attributes:
+      value: "Thank you! 🦀"
         
