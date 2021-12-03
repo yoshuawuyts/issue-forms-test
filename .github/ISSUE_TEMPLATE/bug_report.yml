@@ -12,8 +12,8 @@ body:
       label: Which crate is this issue about?
       multiple: true
       options:
-        - "`windows`"
-        - "`windows-sys`"
+        - "windows"
+        - "windows-sys"
   - type: input
     attributes:
       label: Crate Version
