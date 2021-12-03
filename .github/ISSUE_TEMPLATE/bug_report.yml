@@ -5,8 +5,6 @@ assignees: []
 body:
   - type: dropdown
     attributes:
-      id: crate
-      attributes:
       label: Which crate is this issue about?
       multiple: true
       options:
