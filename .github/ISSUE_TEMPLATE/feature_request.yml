@@ -14,12 +14,14 @@ body:
       description: >
         Why are we doing this? What use cases does it support?
         What is the expected outcome?
-      placeholder: "*motivation*"
+      placeholder: "Please list the motivation here."
   - type: textarea
     attributes:
       label: Drawbacks
       description: Why should we _not_ do this?
-      placeholder: "*drawbacks*"
+      placeholder: "Please list the drawbacks you perceive here."
+    validations:
+      required: false
   - type: textarea
     attributes:
       label: Rationale and alternatives
@@ -30,6 +32,8 @@ body:
         - Why is this design the best in the space of possible designs?
         - What other designs have been considered and what is the rationale for not choosing them?
         - What is the impact of not doing this?
+    validations:
+      required: false
   - type: textarea
     attributes:
       label: Additional context
@@ -39,6 +43,8 @@ body:
         - Is there prior art for this feature?
         - Are there any unresolved questions?
         - What possibilites do you think this feature will open up in the future?
+    validations:
+      required: false
   - type: markdown
     attributes:
       value: "Thank you! 🦀"
