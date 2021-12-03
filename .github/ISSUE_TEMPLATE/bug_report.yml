@@ -20,8 +20,6 @@ body:
       label: Crate version
       description: What is the version of the crate you're using?
       placeholder: You can find the exact crate version in your `Cargo.lock` file.
-    validations:
-      required: false
   - type: textarea
     attributes:
       label: Summary
@@ -32,22 +30,16 @@ body:
         ```rust
         <code>
         ```
-    validations:
-      required: false
   - type: textarea
     attributes:
       label: Expected behavior
       description: "I expected to see this happen:"
       placeholder: "*explanation*"
-    validations:
-      required: false
   - type: textarea
     attributes:
       label: Actual behavior
       description: "Instead, this happened:"
       placeholder: "*explanation*"
-    validations:
-      required: false
   - type: textarea
     attributes:
       label: Additional comments
